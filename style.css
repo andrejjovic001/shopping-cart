@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(70, 171, 199, 0.562);
+}
+
+/* Login section */
+.login-section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+form {
+    margin-bottom: 100px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 90px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(210, 105, 30, 0.725);
+}
+
+
+form h2 {
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+form label {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+
+form input {
+    padding: 5px;
+    font-size: 20px;
+}
+
+
+form .username {
+    margin-bottom: 30px;
+}
+
+
+form button {
+    width: 60px;
+    padding: 7px;
+    background-color: orange;
+    border: 1px solid white;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+
+
+/* Main section */
+h1 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    font-size: 50px;
+    font-style: italic;
+}
+
+
+.pre-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pre-container button {
+    background-color: rgb(49, 199, 49);
+    padding: 5px 10px;
+    margin-bottom: 15px;
+    margin-right: 85px;
+    color: white;
+    border: 1px solid grey;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+
+.budget {
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-left: 90px;
+}
+
+
+.budget p {
+    color: red;
+    font-size: 22px;
+}
+
+
+.container {
+    margin: auto;
+    padding: 20px;
+    max-width: 1350px;
+    text-align: center;
+    background-color: rgba(255, 166, 0, 0.308);
+}
+
+
+.items {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: space-between;
+}
+
+
+
+.single-item {
+    width: 350px;
+    border: 2px solid black;
+    margin-bottom: 40px;
+    background-color: rgb(186, 113, 48);
+    padding: 10px;
+}
+
+
+img {
+    width: 300px;
+    height: 200px;
+    /* border: 1px solid black; */
+}
+
+
+
+.single-item h3 {
+    color: rgb(51, 8, 240);
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+
+.single-item h4 {
+    font-size: 20px;
+    margin-bottom: 25px;
+
+}
+
+.single-item span {
+    color: rgb(255, 255, 255);
+}
+
+
+.single-item button {
+    padding: 6px 20px;
+    font-size: 20px;
+    background-color: orange;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+
+.budget .add-message {
+    color: blue;
+}
+
+
+
+
+/* Cart */
+.cart {
+    border: 1px solid black;
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 70px;
+}
+
+.cart h2 {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+
+/* Hidden section */
+.hidden {
+    display: none;
+}
+
+
+.items-container {
+    display: inline-block;
+    margin: auto;
+}
+
+
+.added-items {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(16, 16, 77);
+    text-align: left;
+}
+
+
+.added-items .remove-btn {
+    margin-left: 20px;
+    padding: 5px;
+    background-color: rgb(44, 141, 113);
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    border: none;
+}
